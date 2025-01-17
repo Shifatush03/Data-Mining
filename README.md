@@ -76,5 +76,8 @@ Dataset diproses untuk memastikan kebersihan data sebelum digunakan dalam moodel
 - Model : CatBoost dipilih karena performanya yang tinggi untuk dataset kategori.
 - Evaluasi : Model dilatih dan diuji menggunakan metrik seperti akurasi, precision, recall,dan F1-score.
 - Hasil akhir : Model mencapai akurasi sebesar 90% pada data validasi.
+![Screenshot 2025-01-17 231805](https://github.com/user-attachments/assets/137cd31c-5400-4850-93d0-13fa335fcc4f)
+![confusionmatrixCatBoost](https://github.com/user-attachments/assets/da5d76cb-c189-445f-aab8-35ed65c2be66)
+
    
 
