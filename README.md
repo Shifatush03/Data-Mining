@@ -4,16 +4,16 @@
 
 **NIM**: A11.2022.14078
         
- **Mata Kuliah** : DATA MINING A11.4517
+ **Mata Kuliah** : DATA MINING [A11.4517]
 
 STREAMLIT : [Prediksi Kesehatan Mental] (https://prediksi-mental-health-25.streamlit.app/)
 
-Tujuan PROYEK : 
+DESKRIPSI PROYEK : 
 Proyek ini bertujuan untuk mendeteksi prediksi kesehatan mental berdasarkan gaya hidup menggunakan model catboost. Proyek ini mencakup tahapan prepoccesing, oversampling, training model, dan deployment menggunakan **STREAMLIT** 
 
 ---
 
-## **Deskripsi Proyek**
+## **Tujuan Proyek**
 proyek ini bertujuan untuk mendeteksi prediksi kesehatan mental menggunakan dataset gaya hidup. Dataset telah melalui beberapa tahap :
 1. Prepocessing untuk membersihkan data.
 2. oversampling untuk menangani ketidakseimbangan data.
@@ -75,7 +75,8 @@ Dataset diproses untuk memastikan kebersihan data sebelum digunakan dalam moodel
 # MODEL DAN EVALUASI 
 - Model : CatBoost dipilih karena performanya yang tinggi untuk dataset kategori.
 - Evaluasi : Model dilatih dan diuji menggunakan metrik seperti akurasi, precision, recall,dan F1-score.
-- Hasil akhir : Model mencapai akurasi sebesar 90% pada data validasi.
+- Hasil akhir : Model mencapai akurasi sebesar 96% pada data validasi.
+  
 ![Screenshot 2025-01-17 231805](https://github.com/user-attachments/assets/137cd31c-5400-4850-93d0-13fa335fcc4f)
 ![confusionmatrixCatBoost](https://github.com/user-attachments/assets/da5d76cb-c189-445f-aab8-35ed65c2be66)
 
