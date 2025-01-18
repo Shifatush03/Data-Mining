@@ -90,9 +90,9 @@ Dataset diproses untuk memastikan kebersihan data sebelum digunakan dalam moodel
 **PERFORMA MODEL**
 Performa Model yang digunakan adalah CatBoost, yang dipilih karena performanya yang tinggi untuk data kategori. Evaluasi model dilakukan dengan menggunakan beberapa metrik, yaitu:
  - Akurasi: 96%
- - Precision: 95%
- - Recall: 94%
- - F1-Score: 94.5%
+ - Precision: 97%
+ - Recall: 96%
+ - F1-Score: 96%
 
    ---
    
