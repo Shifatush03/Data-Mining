@@ -80,5 +80,31 @@ Dataset diproses untuk memastikan kebersihan data sebelum digunakan dalam moodel
 ![Screenshot 2025-01-17 231805](https://github.com/user-attachments/assets/137cd31c-5400-4850-93d0-13fa335fcc4f)
 ![confusionmatrixCatBoost](https://github.com/user-attachments/assets/da5d76cb-c189-445f-aab8-35ed65c2be66)
 
+---
+
+**PERFORMA MODEL**
+Performa Model yang digunakan adalah CatBoost, yang dipilih karena performanya yang tinggi untuk data kategori. Evaluasi model dilakukan dengan menggunakan beberapa metrik, yaitu:
+ - Akurasi: 96%
+ - Precision: 95%
+ - Recall: 94%
+ - F1-Score: 94.5%
+
+   ---
+ Diskusi Hasil dan Kesimpulan
+# Diskusi Hasil:
+- Model CatBoost menunjukkan performa yang sangat baik, dengan akurasi sebesar 96%. Hal ini menunjukkan bahwa model dapat mengklasifikasikan status kesehatan mental individu berdasarkan gaya hidup dengan tingkat keandalan yang tinggi.
+- Teknik oversampling berhasil mengatasi masalah ketidakseimbangan data, yang terlihat dari peningkatan metrik seperti precision dan recall.
+- Evaluasi melalui confusion matrix menunjukkan bahwa jumlah kesalahan prediksi pada kelas minoritas relatif rendah, membuktikan efektivitas preprocessing data.
+- Model dapat lebih ditingkatkan dengan eksplorasi parameter tuning atau penggunaan ensemble model lainnya.
+
+# Kesimpulan:
+ - Proyek ini berhasil mencapai tujuan utamanya, yaitu memprediksi status kesehatan mental berdasarkan gaya hidup dengan menggunakan model CatBoost.
+ - Model dapat digunakan sebagai alat bantu dalam mendeteksi risiko gangguan kesehatan mental, yang dapat memberikan insight awal bagi individu atau tenaga kesehatan.
+ - Implementasi Streamlit memungkinkan akses yang mudah bagi pengguna akhir untuk memanfaatkan model ini dalam pengambilan keputusan.
+
+# Saran:
+ - Untuk pengembangan lebih lanjut, dataset yang lebih besar dan lebih beragam dapat digunakan untuk meningkatkan generalisasi model.
+ - Penambahan fitur lain seperti riwayat kesehatan keluarga atau data genetik dapat meningkatkan akurasi prediksi.
+
    
 
