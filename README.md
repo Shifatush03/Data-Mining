@@ -82,6 +82,11 @@ Dataset diproses untuk memastikan kebersihan data sebelum digunakan dalam moodel
 
 ---
 
+**Model atau Alur Penyelesaian (Bagan)**
+![bagan1](https://github.com/user-attachments/assets/ac29a5b1-080a-49d9-842e-840ed41c9c29)
+
+
+---
 **PERFORMA MODEL**
 Performa Model yang digunakan adalah CatBoost, yang dipilih karena performanya yang tinggi untuk data kategori. Evaluasi model dilakukan dengan menggunakan beberapa metrik, yaitu:
  - Akurasi: 96%
@@ -90,8 +95,8 @@ Performa Model yang digunakan adalah CatBoost, yang dipilih karena performanya y
  - F1-Score: 94.5%
 
    ---
- Diskusi Hasil dan Kesimpulan
-# Diskusi Hasil:
+   
+ # Diskusi Hasil dan Kesimpulan
 - Model CatBoost menunjukkan performa yang sangat baik, dengan akurasi sebesar 96%. Hal ini menunjukkan bahwa model dapat mengklasifikasikan status kesehatan mental individu berdasarkan gaya hidup dengan tingkat keandalan yang tinggi.
 - Teknik oversampling berhasil mengatasi masalah ketidakseimbangan data, yang terlihat dari peningkatan metrik seperti precision dan recall.
 - Evaluasi melalui confusion matrix menunjukkan bahwa jumlah kesalahan prediksi pada kelas minoritas relatif rendah, membuktikan efektivitas preprocessing data.
